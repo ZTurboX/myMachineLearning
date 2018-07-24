@@ -4,14 +4,19 @@
 1.计算给定数据集的香农熵
 2.划分数据集
 3.构建决策树
-使用决策树执行分类
+4.使用决策树执行分类
+
+ID3算法：
+1.使用所有没有使用的属性并计算与之相关的样本熵值
+2.选取其中熵值最小的属性
+3.生成包含该属性的节点
 '''
 
 
 from math import log
 import operator
 
-def calcShannonEnt(dataSet):
+def calcShannonEnt(dataSet):23
     '''
     计算给定数据集的香农熵
     '''
