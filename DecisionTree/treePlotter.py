@@ -12,6 +12,12 @@ arrow_args=dict(arrowstyle="<-")
 def plotNode(nodeText,centerPt,parentPt,nodeType):
     createPlot.ax1.annotate(nodeText,xy=parentPt,xycoords='axes fraction',xytext=centerPt,textcoords='axes fraction',\
                             va="center",ha="center",bbox=nodeType,arrowprops=arrow_args)
+    '''
+    xy:文本注释点
+    xycoords:给出坐标系，'axes fraction'为左下角开始的轴分数
+    xytext:指定放置文本
+    textcoords:给定的坐标系，
+    '''
 
 def createPlot():
     fig=plt.figure(1,facecolor='white')

@@ -1,3 +1,13 @@
+'''
+决策树算法:ID3
+步骤:
+1.计算给定数据集的香农熵
+2.划分数据集
+3.构建决策树
+使用决策树执行分类
+'''
+
+
 from math import log
 import operator
 
