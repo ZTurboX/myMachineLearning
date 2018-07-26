@@ -39,7 +39,7 @@ k-近邻算法是一种基于分类与回归方法，在这里只讨论分类问
 
 3. 分类决策规则
 
-   入实例的 k 个邻近的训练实例中的多数类决定输入实例的类 
+   输入实例的 k 个邻近的训练实例中的多数类决定输入实例的类 
 
 ## k-近邻算法
 
@@ -70,7 +70,7 @@ def classify0(inX,dataSet,labels,k):
         #在字典中将该类型加一
         classCount[voteIlabel]=classCount.get(voteIlabel,0)+1
     #3.排序并返回出现最多的类型
-    sortedClassCount=sorted(classCount.items(),key=operator.itemgetter(1),reverse=True)
+      sortedClassCount=sorted(classCount.items(),key=operator.itemgetter(1),reverse=True)
     return sortedClassCount[0][0]
 
 ```
