@@ -9,20 +9,24 @@
 
     - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/03_%E5%86%B3%E7%AD%96%E6%A0%91.md)
     - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/03_DecisionTree)
+- 第四章：基于概率论的分类方法：朴素贝叶斯
+    - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/04_%E5%9F%BA%E4%BA%8E%E6%A6%82%E7%8E%87%E8%AE%BA%E7%9A%84%E5%88%86%E7%B1%BB%E6%96%B9%E6%B3%95%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF.md)
+    - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/04_NaiveBayes)
+- 
+
+
+
+
 
 - 
 
-    
+      
 
-- 
+      
 
-    
+      
 
-    
-
-    
-
-    
+      
 
 
 
