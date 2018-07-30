@@ -15,8 +15,9 @@
 - 第五章：Logistic回归
     - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/05_Logistic%E5%9B%9E%E5%BD%92.md)
     - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/05_LogisticRegression)
-
-- 
+- 第六章：支持向量机
+    - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/06_%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA.md)
+    - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/06_SVM)
 
 
 
