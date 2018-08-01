@@ -34,17 +34,17 @@
 
 当迭代次数小于最大迭代次数时：
 
-​	对数据集中的每个数据向量：
+&nbsp; &nbsp; &nbsp; &nbsp; 对数据集中的每个数据向量：
 
-​        	如果该数据向量可以被优化：
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如果该数据向量可以被优化：
 
-​            		随机选择另外一个数据向量
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 随机选择另外一个数据向量&nbsp; 
 
-​           		 同时优化这两个向量
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 同时优化这两个向量
 
-​            		如果两个向量都不能被优化，退出内循环
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如果两个向量都不能被优化，退出内循环&nbsp; &nbsp; &nbsp; 
 
-   	 如果所有向量都没被优化，增加迭代数目，继续下一次循环
+&nbsp; &nbsp; &nbsp; &nbsp;如果所有向量都没被优化，增加迭代数目，继续下一次循环
 
 #### 公式推导（摘自《统计学习方法》）
 

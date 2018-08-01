@@ -72,15 +72,15 @@ sigmoid函数图像：
 
    梯度上升思想：
 
-   ​	每个回归系数初始化为1
+   每个回归系数初始化为1
 
-   ​	重复R次：
+   重复R次：
 
-   ​		计算整个数据集的梯度
+   &nbsp; &nbsp; &nbsp; &nbsp; 计算整个数据集的梯度
 
-   ​		使用alpha*gradient更新回归系数的向量
+   &nbsp; &nbsp; &nbsp; &nbsp; 使用alpha*gradient更新回归系数的向量
 
-   ​	返回回归系数
+   返回回归系数
 
    ```python
    def gradAscent(dataMatIn,classLabels):
@@ -166,15 +166,15 @@ sigmoid函数图像：
 
 随机梯度上升：是一个在线学习算法，一次处理所有数据称为“批处理”
 
-​    思想：
+思想：
 
-​        所有回归系数初始化为1
+所有回归系数初始化为1
 
-​        对数据集中每个样本：
+对数据集中每个样本：
 
-​            计算该样本的梯度
+&nbsp; &nbsp; &nbsp; &nbsp; 计算该样本的梯度
 
-​            使用alpha*gradient更新回归系数值
+&nbsp; &nbsp; &nbsp; &nbsp; 使用alpha*gradient更新回归系数值
 
 ```python
 def stocGradAscent0(dataMatrix,classLabels):

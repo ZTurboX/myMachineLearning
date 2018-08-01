@@ -34,17 +34,17 @@
 
 对每篇文档：
 
-​    对每个类别：
+&nbsp; &nbsp; &nbsp; &nbsp; 对每个类别：&nbsp; 
 
-​        如果词条出现在文档中-->增加该词条的计数值
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 如果词条出现在文档中-->增加该词条的计数值
 
-​        增加所有词条的计数值（此类别下词条总数）
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 增加所有词条的计数值（此类别下词条总数）
 
 对每个类别：
 
-​    对每个词条：
+&nbsp; &nbsp; &nbsp; &nbsp; 对每个词条：&nbsp; &nbsp; 
 
-​        将该词条的数目除以总词条数目得到的条件概率(P(词条|类别))
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 将该词条的数目除以总词条数目得到的条件概率(P(词条|类别))
 
 返回该文档属于每个类别的条件概率(P(类别|文档的所有词条))
 
