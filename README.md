@@ -19,9 +19,13 @@
     - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/06_%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA.md)
     - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/06_SVM)
 
+- 第七章：集成学习
+  - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/07_%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0.md)
+  - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/07_Ensemble%20Learning)
 
+- 
 
-
+- 
 
 - 
 
