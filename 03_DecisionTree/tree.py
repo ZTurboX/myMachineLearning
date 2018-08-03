@@ -58,6 +58,7 @@ def splitDataSet(dataSet,axis,value):
 
 def chooseBestFeatureToSplit(dataSet):
     '''
+    ID3,信息增益
     选择最好的数据集划分方式
     '''
 
@@ -93,6 +94,36 @@ def chooseBestFeatureToSplit(dataSet):
             bestFeature=i
     return bestFeature
 
+
+def chooseBestFeatureToSplit2(dataSet):
+    """
+    c4.5,信息增益率
+    输入：数据集
+    输出：最好的划分维度
+    描述：选择最好的数据集划分维度
+    """
+    numFeatures = len(dataSet[0]) - 1
+    baseEntropy = calcShannonEnt(dataSet)
+    bestInfoGainRatio = 0.0
+    bestFeature = -1
+    for i in range(numFeatures):
+        featList = [example[i] for example in dataSet]
+        uniqueVals = set(featList)
+        newEntropy = 0.0
+        splitInfo = 0.0
+        for value in uniqueVals:
+            subDataSet = splitDataSet(dataSet, i, value)
+            prob = len(subDataSet)/float(len(dataSet))
+            newEntropy += prob * calcShannonEnt(subDataSet)
+            splitInfo += -prob * log(prob, 2)
+        infoGain = baseEntropy - newEntropy
+        if (splitInfo == 0): # fix the overflow bug
+            continue
+        infoGainRatio = infoGain / splitInfo
+        if (infoGainRatio > bestInfoGainRatio):
+            bestInfoGainRatio = infoGainRatio
+            bestFeature = i
+    return bestFeature
 
 def majorityCnt(classList):
     '''
