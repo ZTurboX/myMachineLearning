@@ -27,12 +27,18 @@
   - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/07_%E9%9B%86%E6%88%90%E5%AD%A6%E4%B9%A0.md)
   - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/07_Ensemble%20Learning)
 
+
+### 第二部分：回归
+
 - 第八章：线性回归
 
     - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/08_%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.md)
     - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/08_Linear%20Regression)
 
-- 
+- 第九章：树回归
+
+    - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/09_%E6%A0%91%E5%9B%9E%E5%BD%92.md)
+    - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/09_Tree%20Regression)
 
 - 
 
