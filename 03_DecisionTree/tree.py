@@ -16,7 +16,7 @@ ID3算法：
 from math import log
 import operator
 
-def calcShannonEnt(dataSet):23
+def calcShannonEnt(dataSet):
     '''
     计算给定数据集的香农熵
     '''
