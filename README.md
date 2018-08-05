@@ -48,6 +48,18 @@
   - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/10_K-Means%E8%81%9A%E7%B1%BB.md)
   - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/10_K-means)
 
+
+- 第十一章：使用Apriori算法进行关联分析
+
+  - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/11_%E4%BD%BF%E7%94%A8Apriori%E7%AE%97%E6%B3%95%E8%BF%9B%E8%A1%8C%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90.md)
+  - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/11_Apriori)
+
+- 
+
+- 
+
+- 
+
 - 
 
 - 
