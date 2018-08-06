@@ -54,7 +54,10 @@
   - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/11_%E4%BD%BF%E7%94%A8Apriori%E7%AE%97%E6%B3%95%E8%BF%9B%E8%A1%8C%E5%85%B3%E8%81%94%E5%88%86%E6%9E%90.md)
   - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/11_Apriori)
 
-- 
+- 第十二章：使用FP-growth算法来高效发现频繁项集
+
+  - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/12_FP-growth%E7%AE%97%E6%B3%95.md)
+  - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/12_FP-growth)
 
 - 
 
