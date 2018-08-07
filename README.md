@@ -59,6 +59,14 @@
   - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/12_FP-growth%E7%AE%97%E6%B3%95.md)
   - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/12_FP-growth)
 
+
+### 第四部分：工具
+
+- 第十二章：利用PCA来简化数据
+
+  - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/13_%E5%88%A9%E7%94%A8PCA%E6%9D%A5%E7%AE%80%E5%8C%96%E6%95%B0%E6%8D%AE.md)
+  - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/13_Dimensionality%20%20Reduction)
+
 - 
 
 - 
