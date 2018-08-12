@@ -72,9 +72,13 @@
   - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/14_%E5%88%A9%E7%94%A8SVD%E7%AE%80%E5%8C%96%E6%95%B0%E6%8D%AE.md)
   - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/14_SVD)
 
-- 
 
-- 
+### 第五部分：进阶
+
+- 第十五章：EM算法
+
+  - [基本理论](https://github.com/TonyJent/myMachineLearning/blob/master/docs/15_EM%E7%AE%97%E6%B3%95(%E6%9C%9F%E6%9C%9B%E6%9C%80%E5%A4%A7%E7%AE%97%E6%B3%95).md)
+  - [代码解析](https://github.com/TonyJent/myMachineLearning/tree/master/15_EM)
 
 - 
 
