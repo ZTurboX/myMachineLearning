@@ -45,5 +45,10 @@ def classify0(inX,dataSet,labels,k):
     sortedClassCount=sorted(classCount.items(),key=operator.itemgetter(1),reverse=True)
     return sortedClassCount[0][0]
 
+if __name__=='__main__':
+    group,labels=createDataSet()
+    res=classify0([0,0],group,labels,3)
+    print(res)
+
 
 
