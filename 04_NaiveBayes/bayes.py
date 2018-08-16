@@ -162,6 +162,7 @@ def testingNB():
     print(thisDoc)
     print(p0V)
     print(p1V)
+    print(thisDoc)
     print(testEntry,'classified as: ',classifyNB(thisDoc,p0V,p1V,pAb))
     testEntry=['stupid','garbage']
     thisDoc=array(setWords2Vec(myVocabList,testEntry))
