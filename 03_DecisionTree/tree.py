@@ -15,6 +15,7 @@ ID3算法：
 
 from math import log
 import operator
+import treePlotter
 
 def calcShannonEnt(dataSet):
     '''
@@ -176,14 +177,14 @@ def classify(inputTree,featLabels,testVec):
     testVec:测试输入的数据
     '''
     #获取tree的根节点对应的key值
-    firstStr=inputTree.keys()[0]
+    firstStr=list(inputTree.keys())[0]
     #通过key得到根节点对应的value
     secondDict=inputTree[firstStr]
     #判断根节点名称获取根节点在label中的先后顺序，判断输入的testVec怎样开始对照数来做分类
     featIndex=featLabels.index(firstStr)
     for key in secondDict.keys():
         if testVec[featIndex]==key:
-            if type(secondDictp[key]).__name__=='dict':
+            if type(secondDict[key]).__name__=='dict':
                 classLabel=classify(secondDict[key],featLabels,testVec)
             else:
                 classLabel=secondDict[key]
@@ -206,10 +207,16 @@ def createDataSet():
 '''
 def storeTree(inputTree,fileName):
     import pickle
-    fw=open(fileName,'w')
+    fw=open(fileName,'wb+')
     pickle.dump(inputTree,fw)
     fw.close()
 def grabTree(filename):
     import pickle
-    fr=open(filename)
+    fr=open(filename,'rb')
     return pickle.load(fr)
+
+
+myDat,labels=createDataSet()
+myTree=treePlotter.retrieveTree(0)
+storeTree(myTree,'classifierStorage.txt')
+grabTree('classifierStorage.txt')
